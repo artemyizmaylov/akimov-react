@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/akimov-react/static/css/main.45aa811d.css",
+    "main.css": "/akimov-react/static/css/main.4b6651f5.css",
     "main.js": "/akimov-react/static/js/main.ecae7632.js",
     "static/js/787.dc502b1b.chunk.js": "/akimov-react/static/js/787.dc502b1b.chunk.js",
     "static/media/2.png": "/akimov-react/static/media/2.a25b73044dfc2a6a2782.png",
@@ -15,12 +15,12 @@
     "static/media/logo.svg": "/akimov-react/static/media/logo.2ef5ca685f29d0c1f18e50991ef72221.svg",
     "static/media/basket.svg": "/akimov-react/static/media/basket.8784b2c84e66e9744d20f941bfa3a6cd.svg",
     "index.html": "/akimov-react/index.html",
-    "main.45aa811d.css.map": "/akimov-react/static/css/main.45aa811d.css.map",
+    "main.4b6651f5.css.map": "/akimov-react/static/css/main.4b6651f5.css.map",
     "main.ecae7632.js.map": "/akimov-react/static/js/main.ecae7632.js.map",
     "787.dc502b1b.chunk.js.map": "/akimov-react/static/js/787.dc502b1b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.45aa811d.css",
+    "static/css/main.4b6651f5.css",
     "static/js/main.ecae7632.js"
   ]
 }
