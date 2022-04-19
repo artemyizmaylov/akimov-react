@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Дары Волхвов</title>
+  <link rel="stylesheet" href="./fonts/fonts.css">
+  <link rel="stylesheet" href="./node_modules/modern-normalize/modern-normalize.css">
+  <style>
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    p {
+      margin: 0;
+    }
+
+    .scene {
+      overflow: hidden;
+    }
+
+    .parallax {
+      width: 100vw;
+      height: 100vh;
+      position: relative;
+      transform-style: preserve-3d;
+      perspective: 1000px;
+    }
+
+    .parallax__layer {
+      width: 100%;
+      position: absolute;
+      bottom: 0;
+    }
+
+    .layer-one {
+      transform: translateZ(5px);
+      scale: 103%;
+    }
+
+    .layer-two {
+      transform: translateZ(-20px);
+      scale: 1.1;
+    }
+
+    .layer-three {
+      transform: translateZ(-100px);
+      scale: 1.3;
+    }
+
+    .layer-four {
+      transform: translateZ(-150px);
+      scale: 125%;
+    }
+
+    .layer-five {
+      transform: translateZ(-200px);
+      scale: 1.4;
+    }
+
+    .layer-six {
+      transform: translateZ(-400px);
+      scale: 155%;
+    }
+
+    .layer-seven {
+      transform: translateZ(-1000px);
+      scale: 3;
+    }
+
+    .scene__heading {
+      font-family: "Lighthaus";
+      color: white;
+      font-size: 144px;
+      line-height: 186px;
+      
+      position: absolute;
+      top: 0;
+    }
+  </style>
+</head>
+
+<body>
+  <main class="scene">
+    <div class="parallax">
+      <img class="parallax__layer layer-one" src="./images/parallax/1.png" alt="Картина">
+      <img class="parallax__layer layer-two" src="./images/parallax/2.png" alt="Картина">
+      <img class="parallax__layer layer-three" src="./images/parallax/3.png" alt="Картина">
+      <img class="parallax__layer layer-four" src="./images/parallax/4.png" alt="Картина">
+      <img class="parallax__layer layer-five" src="./images/parallax/5.png" alt="Картина">
+      <img class="parallax__layer layer-six" src="./images/parallax/6.png" alt="Картина">
+      <img class="parallax__layer layer-seven" src="./images/parallax/7.png" alt="Картина">
+    </div>
+    <h1 class="scene__heading">ЮвелирнАя иконОтека</h1>
+  </main>
+
+  <script src="./index.js"></script>
+</body>
+
+</html>

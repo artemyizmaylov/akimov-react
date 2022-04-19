@@ -1,0 +1,4 @@
+.parallax__layer-two {
+  transform: translateZ(-20px);
+  scale: 1.1;
+}

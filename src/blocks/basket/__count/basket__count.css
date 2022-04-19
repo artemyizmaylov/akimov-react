@@ -1,0 +1,8 @@
+.basket__count {
+  font-family: 'Century Gothic';
+  color: white;
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  top: 45%;
+}

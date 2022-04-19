@@ -1,0 +1,5 @@
+.header__menu {
+  min-width: 25%;
+  display: flex;
+  justify-content: space-between;
+}

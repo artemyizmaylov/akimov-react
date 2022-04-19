@@ -1,0 +1,15 @@
+.parallax__button {
+  width: 10em;
+  height: 10em;
+  background-image: url('../../../images/parallax/text.png');
+  background-size: 96%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: transparent;
+  border: none;
+  border-radius: 50%;
+
+  position: absolute;
+  bottom: 39%;
+  left: 42%;
+}

@@ -1,0 +1,10 @@
+.main__heading {
+  font-family: 'Lighthaus';
+  font-size: 7em;
+  line-height: 1em;
+  color: white;
+  z-index: 1;
+
+  position: absolute;
+  top: 15%;
+}
