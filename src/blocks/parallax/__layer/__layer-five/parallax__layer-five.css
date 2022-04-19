@@ -1,4 +1,3 @@
 .parallax__layer-five {
-  transform: translateZ(-200px);
-  scale: 1.4;
+  transform: translateZ(-200px) scale(1.4);
 }

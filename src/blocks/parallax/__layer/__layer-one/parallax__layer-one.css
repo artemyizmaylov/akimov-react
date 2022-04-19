@@ -1,4 +1,4 @@
 .parallax__layer-one {
-  transform: translateZ(5px);
+  transform: translateZ(5px) scale(110%);
   scale: 110%;
 }
