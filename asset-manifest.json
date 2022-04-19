@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/akimov-react/static/css/main.45aa811d.css",
+    "main.js": "/akimov-react/static/js/main.ecae7632.js",
+    "static/js/787.dc502b1b.chunk.js": "/akimov-react/static/js/787.dc502b1b.chunk.js",
+    "static/media/2.png": "/akimov-react/static/media/2.a25b73044dfc2a6a2782.png",
+    "static/media/5.png": "/akimov-react/static/media/5.16680100e1f1a1cd3054.png",
+    "static/media/6.png": "/akimov-react/static/media/6.da3c0c045201a3e9045b.png",
+    "static/media/7.png": "/akimov-react/static/media/7.b84aef47cd9a79dad329.png",
+    "static/media/4.png": "/akimov-react/static/media/4.940eca6f804393a76ec6.png",
+    "static/media/3.png": "/akimov-react/static/media/3.eb99a16dadf10d3c1199.png",
+    "static/media/1.png": "/akimov-react/static/media/1.e73c6258a3b9106d6b97.png",
+    "static/media/Centurygothic.ttf": "/akimov-react/static/media/Centurygothic.b194aa2bd524e2c973f7.ttf",
+    "static/media/Lighthaus.otf": "/akimov-react/static/media/Lighthaus.ce218679d68b451af704.otf",
+    "static/media/logo.svg": "/akimov-react/static/media/logo.2ef5ca685f29d0c1f18e50991ef72221.svg",
+    "static/media/basket.svg": "/akimov-react/static/media/basket.8784b2c84e66e9744d20f941bfa3a6cd.svg",
+    "index.html": "/akimov-react/index.html",
+    "main.45aa811d.css.map": "/akimov-react/static/css/main.45aa811d.css.map",
+    "main.ecae7632.js.map": "/akimov-react/static/js/main.ecae7632.js.map",
+    "787.dc502b1b.chunk.js.map": "/akimov-react/static/js/787.dc502b1b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.45aa811d.css",
+    "static/js/main.ecae7632.js"
+  ]
+}
