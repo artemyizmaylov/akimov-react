@@ -1,4 +1,6 @@
-import { useEffect } from 'react';
+import { useEffect, useRef } from 'react';
+import gsap from 'gsap';
+
 import one from '../images/parallax/1.png';
 import two from '../images/parallax/2.png';
 import three from '../images/parallax/3.png';
@@ -10,28 +12,28 @@ import seven from '../images/parallax/7.png';
 import '../blocks/parallax/parallax.css'
 
 export default function Parallax() {
+  const parallax = useRef(null);
+
   useEffect(() => {
-    window.addEventListener('load', () => {
-      const scene = document.querySelector('.parallax');
+    window.addEventListener('mousemove', (e) => {
       const windowWidth = window.innerWidth;
-      const windowHeight = window.innerHeight
+      const windowHeight = window.innerHeight;
 
-      window.addEventListener('mousemove', (e) => {
-        console.log(`X: ${e.clientX}, Y: ${e.clientY}`);
-        const centerX = windowWidth / 2;
-        const centerY = windowHeight / 2;
-        const coefficient = 70;
+      const centerX = windowWidth / 2;
+      const centerY = windowHeight / 2;
+      const coefficient = 70;
 
-        scene.style.transform = `
-    rotateX(${Math.round((e.clientY - centerY) / coefficient) * -1}deg)
-    rotateY(${Math.round((e.clientX - centerX) / coefficient)}deg)
-    `;
+      gsap.to(parallax.current, {
+        transform: `
+            rotateX(${Math.round((e.clientY - centerY) / coefficient) * -1}deg)
+            rotateY(${Math.round((e.clientX - centerX) / coefficient)}deg)
+          `
       })
     })
-  })
+  }, [])
 
   return (
-    <div className="parallax">
+    <div className="parallax" ref={parallax}>
       {/* <button className='parallax__layer parallax__button' type='button' /> */}
       <img className="parallax__layer parallax__layer-one" src={one} alt="Картина" />
       <img className="parallax__layer parallax__layer-two" src={two} alt="Картина" />
